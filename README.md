@@ -1,100 +1,103 @@
-🐹 Go in 7 Segments – My Learning Journey
+# 🐹 Go in 7 Segments – My Learning Journey
 
 This repo documents my 7-part crash course in Go (Golang).
 I already have a background in Node.js, and here I’m diving into Go’s unique strengths — especially concurrency with goroutines and channels.
 
-📚 Learning Segments
-✅ Segment 1 – Go Foundations & Environment Setup
+## 📚 Learning Segments
 
-Installed Go + set up module system (go mod init).
+### ✅ Segment 1 – Go Foundations & Environment Setup
 
-Wrote my first Hello World in Go.
+- Installed Go + set up module system (`go mod init`).
 
-Learned about variables, constants, and types (var, const, :=).
+- Wrote my first Hello World in Go.
 
-Functions with single & multiple return values.
+- Learned about variables, constants, and types (`var`, `const`, `:=`).
 
-Control flow: if, for, switch.
+- Functions with single & multiple return values.
 
-Built a CLI Greeting App using bufio + os.Stdin.
+- Control flow: `if`, `for`, `switch`.
 
-📂 Code is already live at: https://github.com/vjbhandari61/go-learning
+- Built a CLI Greeting App using `bufio` + `os.Stdin`.
 
-⏳ Segment 2 – Data Structures & Error Handling (coming up)
+#### 📂 Code is already live at: https://github.com/vjbhandari61/go-learning
 
-Arrays, slices, maps.
+### ⏳ Segment 2 – Data Structures & Error Handling (coming up)
 
-Structs for custom data types.
+- Arrays, slices, maps.
 
-Pointers & why Go uses them.
+- Structs for custom data types.
 
-Error handling with error type.
+- Pointers & why Go uses them.
 
-Mini-project: Contact Book CLI.
+- Error handling with error type.
 
-⏳ Segment 3 – Functions, Interfaces, Packages
+- Mini-project: Contact Book CLI.
 
-Functions & multiple return values.
+### ⏳ Segment 3 – Functions, Interfaces, Packages
 
-Methods vs functions.
+- Functions & multiple return values.
 
-Interfaces for polymorphism.
+- Methods vs functions.
 
-Writing & importing custom packages.
+- Interfaces for polymorphism.
 
-Mini-project: Math Utility + Shape Areas.
+- Writing & importing custom packages.
 
-⏳ Segment 4 – Concurrency with Goroutines
+- Mini-project: Math Utility + Shape Areas.
 
-Goroutines vs Node.js async.
+### ⏳ Segment 4 – Concurrency with Goroutines
 
-go keyword for lightweight threads.
+- Goroutines vs Node.js async.
 
-Timeouts & time.Sleep.
+- `go` keyword for lightweight threads.
 
-Mini-project: Concurrent Web Scraper.
+- Timeouts & `time.Sleep`.
 
-⏳ Segment 5 – Channels & Synchronization
+- Mini-project: Concurrent Web Scraper.
 
-Unbuffered vs buffered channels.
+### ⏳ Segment 5 – Channels & Synchronization
 
-select for multiplexing.
+- Unbuffered vs buffered channels.
 
-Closing channels & detecting completion.
+- `select` for multiplexing.
 
-Mini-project: Concurrent Scraper w/ Progress Reporter.
+- Closing channels & detecting completion.
 
-⏳ Segment 6 – REST API in Go
+- Mini-project: Concurrent Scraper w/ Progress Reporter.
 
-HTTP server with net/http.
+### ⏳ Segment 6 – REST API in Go
 
-Routing, JSON encoding/decoding.
+- HTTP server with `net/http`.
 
-Middleware-like handlers.
+- Routing, JSON encoding/decoding.
 
-Mini-project: Task Manager API.
+- Middleware-like handlers.
 
-⏳ Segment 7 – Advanced Project + Wrap-Up
+- Mini-project: Task Manager API.
 
-Context & cancellations.
+### ⏳ Segment 7 – Advanced Project + Wrap-Up
 
-Testing in Go.
+- Context & cancellations.
 
-Go routines + channels in real-world project.
+- Testing in Go.
 
-Capstone: Concurrent Worker Pool with REST interface.
+- Go routines + channels in real-world project.
 
-🎯 Goals
+- Capstone: Concurrent Worker Pool with REST interface.
 
-Master Go basics in 7 focused segments.
 
-Build 4+ mini-projects + 1 capstone project.
+### 🎯 Goals
 
-Learn how to use goroutines and channels effectively.
+- Master Go basics in 7 focused segments.
 
-Be ready to build production-style Go services.
+- Build 4+ mini-projects + 1 capstone project.
 
-📌 Notes
+- Learn how to use goroutines and channels effectively.
+
+- Be ready to build production-style Go services.
+
+
+### 📌 Notes
 
 This repo is my personal learning log.
-Each segment has its own folder with code & notes.
+Each segment's learning has its own folder with the code.
